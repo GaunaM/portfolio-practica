@@ -1,0 +1,157 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'calibri';
+}
+
+.cabecera{
+    width: 100%;
+    height: 100px;
+    padding: 10px 20px;
+    display: inline-block;
+    
+}
+
+#logo-arg-programa img {
+    width: 120px;
+    height: 50px;
+    float: left;
+}
+
+#logo-arg-programa h3 {
+    align-items: center;
+}
+
+#info-redes-login {
+    float: right;
+    
+}
+
+#info-redes-login button {
+    width: 55px;
+    height: 55px;
+}
+
+#info-redes-login button img {
+    width: 50px;
+    height: 50px;
+}
+
+#banner img {
+    width: 100%;
+    height: 400px;
+}
+
+#info-img img {
+    width: 100px;
+    height: 100px;
+    margin-top: -10%;
+    margin-left: 60px;
+}
+
+#info-data {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 50px 100px;
+    grid-gap: 10px;
+}
+
+.nombre {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+
+.titulo h3 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.descripcion p {
+    grid-column: 2;
+    grid-row: 1 / 2;
+}
+
+.exp-edu {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 40px 80px 80px 80px;
+    grid-gap: 10px;
+    margin: 10px;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+
+.box {
+    margin: 10px;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+
+.exp-edu h2 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#empresa1 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#empresa2 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#empresa3 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#instituto1 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#instituto2 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#instituto3 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#educacion-titulos {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    align-items: center;
+}
+
+.container {
+    width: 100%; 
+    background-color: #ddd; 
+  }
+  
+.skills {
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+  }
+  
+.teamwork {width: 90%; background-color: #04AA6D;} 
+.adaptabilidad {width: 80%; background-color: #2196F3;} 
+.python {width: 65%; background-color: #f44336;} 
+.html {width: 60%; background-color: #808080;} 
+
